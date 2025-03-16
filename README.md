@@ -1,11 +1,9 @@
 # 🎲 Snake and Ladder Game 🎲
 
-A **Computer Graphics project** developed as part of the **Computer Graphics course** during my **Bachelor's at AIUB**.  
-This project simulates the classic **Snake and Ladder game** using **OpenGL (GLUT)**.
+A **Computer Graphics project** developed as part of the **Computer Graphics course** during my **Bachelor's at AIUB**. This project simulates the classic **Snake and Ladder game** using **OpenGL (GLUT)**.
 
 ## 📸 Game Screenshot
 ![Game Screenshot](./Screenshot.png)  
-*(Replace `screenshot.png` with the actual file name of your screenshot.)*
 
 ## 🛠️ Features
 - 🎮 **Player-controlled dice rolls**
@@ -17,18 +15,18 @@ This project simulates the classic **Snake and Ladder game** using **OpenGL (GLU
 
 ## 🚀 How to Run (Mac M1/M2)
 ### **Install Dependencies**
-'''bash
+```bash
 brew install freeglut
-'''
+```
 
 ### **Compile the Code**
-'''
+```bash
 g++ -o snake_game main.cpp -I/opt/homebrew/opt/freeglut/include -L/opt/homebrew/opt/freeglut/lib -framework OpenGL -framework GLUT
-'''
+```
 ### **Run the Game**
-'''
+```bash
 ./snake_game
-'''
+```
 
 🎮 How to Play
 Click inside the game window to roll the dice.
