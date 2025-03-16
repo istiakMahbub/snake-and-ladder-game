@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<gl\glut.h>
+#include <GLUT/glut.h>
 //#include <stdlib.h>
 #include<string.h>
 #include<iostream>
